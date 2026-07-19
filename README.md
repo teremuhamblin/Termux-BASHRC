@@ -174,6 +174,39 @@ Aucune utilisation malveillante n’est tolérée.
 
 ---
 
+### 🪖 Support & Sponsors
+- LÉGION OPS
+Le projet **Termux‑BASHRC | LégionOS CYBER OPS** est développé dans un esprit de discipline, de rigueur et de soutien aux valeurs militaires françaises.
+
+Votre soutien permet :
+- le développement continu des modules CYBER OPS,
+- l’amélioration des environnements Bash avancés,
+- la création de frameworks tactiques pour Termux ARM64,
+- la maintenance des versions LégionOS (v6 → v10).
+
+---
+
+#### 🎖️ Soutien Officiel
+Vous pouvez soutenir le projet via les plateformes officielles :
+
+#### 🟩 GitHub Sponsors (officiel)
+[![Sponsor Legion](https://img.shields.io/badge/SUPPORT-LÉGION-0a3d62?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/teremuhamblin)
+
+#### 🟦 Ko‑fi
+https://ko-fi.com/teremu
+
+#### 🟪 Patreon
+https://www.patreon.com/teremu
+
+---
+
+#### 🛡️ Engagement
+Ce projet n’est affilié à aucune unité militaire.  
+Il exprime uniquement un **soutien moral, technique et institutionnel**,  
+dans le respect total des valeurs de l’Armée de Terre et de la Légion étrangère.
+
+---
+
 ### ⭐ Contribution
 
 Pull requests bienvenues pour :
