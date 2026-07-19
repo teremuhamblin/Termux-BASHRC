@@ -1,0 +1,34 @@
+security:
+  policy: |
+    # 🔐 SECURITY — Termux‑BASHRC (LégionOS CYBER OPS)
+
+    ## 🛡️ Objectif
+    Garantir un environnement Bash militaire :
+    - stable
+    - sécurisé
+    - optimisé ARM64
+    - sans dépendances fragiles
+    - usage légal uniquement
+
+    ## ⚠️ Utilisation autorisée
+    - CTF
+    - labs cyber
+    - audit légal
+    - apprentissage cyberdéfense
+
+    ## 🚫 Interdit
+    - piratage réel
+    - intrusion non autorisée
+    - exploitation malveillante
+    - contournement de sécurité
+
+    ## 🧩 Modules sensibles
+    - SOC++++
+    - SIGINT
+    - Audit réseau
+    - Threat Hunt
+    - Log Hunt
+
+    ## 🛠️ Signalement de vulnérabilité
+    - Ouvre une issue GitHub (label: security)
+    - Fournis logs + contexte
