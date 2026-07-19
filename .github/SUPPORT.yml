@@ -1,0 +1,22 @@
+support:
+  documentation:
+    - README.md
+    - CHANGELOG.md
+    - ROADMAP.md
+    - ARCHITECTURE.md
+
+  before_request:
+    steps:
+      - "Exécuter : hud"
+      - "Exécuter : diagnostic"
+      - "Exécuter : threathunt"
+      - "Exécuter : loghunt"
+
+  rules:
+    - "Pas de demandes illégales"
+    - "Pas de piratage réel"
+    - "Pas de contournement de sécurité"
+    - "Usage cyberdéfense uniquement"
+
+  contact:
+    github_issues: "https://github.com/<user>/Termux-BASHRC/issues"
