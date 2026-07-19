@@ -1,0 +1,16 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: "💬 Support militaire"
+    url: "https://github.com/<user>/Termux-BASHRC/issues"
+    about: "Support pour LégionOS CYBER OPS"
+
+issue_templates:
+  - name: "🪖 Issue"
+    description: "Rapport d’incident militaire"
+    path: "ISSUE_TEMPLATE/issue.yml"
+
+pull_request_templates:
+  - name: "🛡️ Pull Request"
+    description: "Proposition d’amélioration militaire"
+    path: "PULL_REQUEST_TEMPLATE/pull_request.yml"
