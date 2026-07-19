@@ -1,0 +1,55 @@
+name: "🛡️ Pull Request — LégionOS CYBER OPS"
+description: "Proposer une amélioration, correction ou ajout militaire avancé."
+title: "[PR] — "
+labels: ["enhancement", "review"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci pour ta contribution à **LégionOS CYBER OPS**.
+        Remplis les sections ci‑dessous pour faciliter la revue militaire.
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: "🎯 Objectif de la PR"
+      placeholder: "Correction ? Nouvelle fonctionnalité ? Optimisation ? Module cyber ?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: "🔧 Modifications apportées"
+      placeholder: |
+        - Ajout…
+        - Correction…
+        - Optimisation…
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: "🧪 Tests effectués"
+      placeholder: |
+        - HUD
+        - SOC++++
+        - OSINT
+        - SIGINT
+        - Menu interactif
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: "⚠️ Risques potentiels"
+      placeholder: |
+        - Impact sur performances ?
+        - Compatibilité ARM64 ?
+        - Conflits possibles ?
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "🪖 Notes militaires"
+      placeholder: "Stabilité, optimisation, discipline cyber…"
