@@ -1,52 +1,69 @@
-# 🪖 Issue — Termux‑BASHRC (LégionOS CYBER OPS)
+name: "🪖 Rapport d'incident — LégionOS CYBER OPS"
+description: "Signaler un problème, une anomalie ou un comportement suspect dans Termux‑BASHRC."
+title: "[ISSUE] — "
+labels: ["bug", "analysis", "triage"]
+assignees: []
 
-Merci de contribuer à l’amélioration de **LégionOS CYBER OPS**.  
-Veuillez remplir les sections ci‑dessous pour que l’équipe puisse analyser efficacement.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de contribuer à l’amélioration de **LégionOS CYBER OPS**.
+        Remplis les sections ci‑dessous pour une analyse efficace.
 
----
+  - type: textarea
+    id: description
+    attributes:
+      label: "🔍 Description du problème"
+      description: "Explique clairement ce qui ne fonctionne pas."
+      placeholder: "Comportement observé…"
+    validations:
+      required: true
 
-## 🔍 Description du problème
-Explique clairement le comportement observé.
+  - type: textarea
+    id: expected
+    attributes:
+      label: "🎯 Comportement attendu"
+      placeholder: "Ce que tu pensais obtenir…"
 
----
+  - type: textarea
+    id: steps
+    attributes:
+      label: "🧪 Étapes pour reproduire"
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
 
-## 🎯 Comportement attendu
-Décris ce que tu pensais obtenir.
+  - type: textarea
+    id: environment
+    attributes:
+      label: "🖥️ Environnement"
+      placeholder: |
+        - Appareil :
+        - CPU / SoC :
+        - Version Termux :
+        - Version Bashrc :
+        - Android :
+    validations:
+      required: true
 
----
+  - type: textarea
+    id: logs
+    attributes:
+      label: "📸 Logs / Captures"
+      description: "Ajoute les sorties utiles (hud, diagnostic, threathunt…)."
 
-## 🧪 Étapes pour reproduire
-1.  
-2.  
-3.  
-
----
-
-## 🖥️ Environnement
-- Appareil :  
-- CPU / SoC :  
-- Version Termux :  
-- Version Bashrc :  
-- Android :  
-
----
-
-## 📸 Logs / Captures (optionnel)
-Ajoute ici les sorties de commandes utiles :
-- `hud`
-- `diagnostic`
-- `threathunt`
-- `loghunt`
-
----
-
-## ⚔️ Niveau de criticité
-- [ ] Faible  
-- [ ] Moyen  
-- [ ] Élevé  
-- [ ] Critique (impact opérationnel)
-
----
-
-Merci pour ton rapport.  
-**LégionOS Cyber Division**
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "⚔️ Criticité"
+      options:
+        - Faible
+        - Moyen
+        - Élevé
+        - Critique
+    validations:
+      required: true
