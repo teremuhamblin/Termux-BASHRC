@@ -1,4 +1,4 @@
-####### 🏛️ ARCHITECTURES.md >> markdown
+###### 🏛️ ARCHITECTURES.md >> markdown
 -Termux‑BASHRC (LégionOS CYBER OPS)
 Ce document décrit l’architecture interne du projet **Termux‑BASHRC**, conçu comme un environnement Bash militaire avancé pour Termux ARM64.
 
