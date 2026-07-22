@@ -1,4 +1,5 @@
 ###### README.md >> markdown
+>BASHRC / ZSHRC
 # 🪖 LégionOS
 - CYBER OPS v6
    - (ULTIMATE Military Edition)
