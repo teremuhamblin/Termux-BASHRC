@@ -1,4 +1,5 @@
-# 🏛️ Architecture — Termux‑BASHRC (LégionOS CYBER OPS)
+####### 🏛️ ARCHITECTURES.md >> markdown
+-Termux‑BASHRC (LégionOS CYBER OPS)
 Ce document décrit l’architecture interne du projet **Termux‑BASHRC**, conçu comme un environnement Bash militaire avancé pour Termux ARM64.
 
 L’objectif est de fournir une structure claire, modulaire, tactique, inspirée des environnements cyber militaires (SOC, CERT, RensOps, SIGINT).
